@@ -1,0 +1,25 @@
+{
+    "group_level": [
+        {
+            "name": "sex",
+            "description": "what is the sex of the person",
+            "answers": ["male", "female", "cannot recognize"],
+            "open_ended": true
+        },
+        {
+            "name": "age",
+            "description": "age group of the person",
+            "answers": ["less than 3 years", "3-7", "7-14", "14-18", "18-25",
+                "25-35", "35-50", "50-65", "66+", "cannot recognize"],
+            "open_ended": false
+        }
+    ],
+    "image_level": [
+        {
+            "name": "quality",
+            "description": "quality of image",
+            "answers": ["high", "low"],
+            "open_ended": false
+        }
+    ]
+}

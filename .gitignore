@@ -1,0 +1,9 @@
+*.pickle
+*.pyc
+test.py
+to_do.md
+backup_path/
+output_path/
+venv/
+*.sublime-project
+*.sublime-workspace
