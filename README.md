@@ -1,6 +1,8 @@
 # introduction
 A tool for cropping and tagging images. The most typical use-case is to prepare images for machine learning.
 
+![screenshot](screenshot.jpg)
+
 # setup
 
 ## installing
