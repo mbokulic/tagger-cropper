@@ -25,26 +25,7 @@ pip install -r requirements.txt
 ```
 
 ## configuration
-```python
-# config.py
-
-GROUPING = True  # 
-QUESTIONS_PATH = 'questions_example.json'
-
-# graphical parameters
-MONTAGE_WIDTH = 1400
-MONTAGE_HEIGHT = 700
-QUESTION_WIDTH = 30
-
-# setting for the questions
-REQUIRED_QUESTION_SECTIONS = ['name', 'description', 'answers', 'open_ended']
-GROUP_QUESTION = {
-    'name': 'nr_groups',
-    'description': 'number of groups of targets',
-    'answers': [0, 1, 2, 3],
-    'open_ended': True
-}
-```
+Use the provided config.py file to setup graphical parameters and tags.
 
 ## running the program
 ```bash
