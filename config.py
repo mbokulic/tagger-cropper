@@ -9,7 +9,8 @@ GROUPING = True
 # graphical parameters
 MONTAGE_WIDTH = 1400
 MONTAGE_HEIGHT = 700
-QUESTION_WIDTH = 30
+QUESTION_WIDTH = 30  # width of the question buttons
+ZOOM_LEVEL = 0.5   # zoom level for images when cropping
 
 # required sections for the questions definitions
 REQUIRED_QUESTION_SECTIONS = ['name', 'description', 'answers', 'open_ended']

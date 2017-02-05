@@ -210,7 +210,7 @@ class Group_tagger:
             self.crop_csv,
             self.image_list.get_current_group(),
             flip,
-            1)
+            ZOOM_LEVEL)
         self.cropper.run()
         self.master.wait_window(window)
 
